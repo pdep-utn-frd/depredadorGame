@@ -1,0 +1,18 @@
+import wollok.game.*
+
+import example.*
+
+program PepitaGame {
+	game.title("depredador")
+	game.height(10)
+	game.width(10)
+
+	// add assets in asset folder, for example, for the background
+    depredador.iniciar()
+
+	//
+
+	//game.showAttributes(pepita) //Debug
+
+	game.start()
+}
